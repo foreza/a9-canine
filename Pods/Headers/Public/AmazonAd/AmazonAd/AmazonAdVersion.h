@@ -1,0 +1,1 @@
+../../../../AmazonAd/AmazonMobileAds-ios-2.2.15.1-SDK/AmazonAd.framework/Versions/A/Headers/AmazonAdVersion.h

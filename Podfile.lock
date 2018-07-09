@@ -1,0 +1,16 @@
+PODS:
+  - AmazonAd (2.2.15.1)
+
+DEPENDENCIES:
+  - AmazonAd (~> 2.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AmazonAd
+
+SPEC CHECKSUMS:
+  AmazonAd: 9b7226322bc124343d279a98c28cdae26c48a0e7
+
+PODFILE CHECKSUM: dac8d3b8abcca78167d19ef3af912fc347036aae
+
+COCOAPODS: 1.5.3
