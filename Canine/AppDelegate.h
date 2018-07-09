@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AmazonAd/AmazonAdRegistration.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

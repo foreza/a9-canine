@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AmazonAd/AmazonAdView.h>
+#import <AmazonAd/AmazonAdOptions.h>
+#import <AmazonAd/AmazonAdError.h>
 
 @interface FirstViewController : UIViewController
 

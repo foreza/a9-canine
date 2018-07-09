@@ -15,6 +15,18 @@
 		920A98E620F3C1510085909A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920A98E520F3C1510085909A /* Assets.xcassets */; };
 		920A98E920F3C1510085909A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920A98E720F3C1510085909A /* LaunchScreen.storyboard */; };
 		920A98EC20F3C1510085909A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 920A98EB20F3C1510085909A /* main.m */; };
+		920A98F320F3C5450085909A /* AmazonAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920A98F220F3C5450085909A /* AmazonAd.framework */; };
+		920A98F520F3C5540085909A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920A98F420F3C5540085909A /* AdSupport.framework */; };
+		920A98F720F3C5AC0085909A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920A98F620F3C5AC0085909A /* CoreLocation.framework */; };
+		920A98F920F3C5E30085909A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920A98F820F3C5E30085909A /* SystemConfiguration.framework */; };
+		920A98FB20F3C6060085909A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920A98FA20F3C6060085909A /* CoreTelephony.framework */; };
+		920A98FD20F3C6A10085909A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920A98FC20F3C6A10085909A /* MediaPlayer.framework */; };
+		920A98FF20F3C9540085909A /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920A98FE20F3C9540085909A /* EventKit.framework */; };
+		920A990120F3C96D0085909A /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920A990020F3C96D0085909A /* EventKitUI.framework */; };
+		920A990320F3CA360085909A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920A990220F3CA360085909A /* StoreKit.framework */; };
+		920A990520F3D0820085909A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920A990420F3D0820085909A /* QuartzCore.framework */; };
+		920A990720F3D0C20085909A /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920A990620F3D0C20085909A /* JavaScriptCore.framework */; };
+		920A990920F3D0D10085909A /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920A990820F3D0D10085909A /* SafariServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +43,18 @@
 		920A98E820F3C1510085909A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		920A98EA20F3C1510085909A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		920A98EB20F3C1510085909A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		920A98F220F3C5450085909A /* AmazonAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AmazonAd.framework; path = "Pods/AmazonAd/AmazonMobileAds-ios-2.2.15.1-SDK/AmazonAd.framework"; sourceTree = "<group>"; };
+		920A98F420F3C5540085909A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		920A98F620F3C5AC0085909A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		920A98F820F3C5E30085909A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		920A98FA20F3C6060085909A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		920A98FC20F3C6A10085909A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		920A98FE20F3C9540085909A /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		920A990020F3C96D0085909A /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		920A990220F3CA360085909A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		920A990420F3D0820085909A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		920A990620F3D0C20085909A /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		920A990820F3D0D10085909A /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		B4E847EA6E33CBDC91E89A17 /* Pods-Canine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Canine/Pods-Canine.debug.xcconfig"; sourceTree = "<group>"; };
 		FB566518F68DB9AF37BD4F60 /* Pods-Canine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canine.release.xcconfig"; path = "Pods/Target Support Files/Pods-Canine/Pods-Canine.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,6 +64,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920A990920F3D0D10085909A /* SafariServices.framework in Frameworks */,
+				920A990720F3D0C20085909A /* JavaScriptCore.framework in Frameworks */,
+				920A990520F3D0820085909A /* QuartzCore.framework in Frameworks */,
+				920A990320F3CA360085909A /* StoreKit.framework in Frameworks */,
+				920A990120F3C96D0085909A /* EventKitUI.framework in Frameworks */,
+				920A98FF20F3C9540085909A /* EventKit.framework in Frameworks */,
+				920A98FD20F3C6A10085909A /* MediaPlayer.framework in Frameworks */,
+				920A98FB20F3C6060085909A /* CoreTelephony.framework in Frameworks */,
+				920A98F920F3C5E30085909A /* SystemConfiguration.framework in Frameworks */,
+				920A98F720F3C5AC0085909A /* CoreLocation.framework in Frameworks */,
+				920A98F520F3C5540085909A /* AdSupport.framework in Frameworks */,
+				920A98F320F3C5450085909A /* AmazonAd.framework in Frameworks */,
 				291A1D60DC5969E28954CB8F /* libPods-Canine.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +86,18 @@
 		38929C5818595750F5820E18 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				920A990820F3D0D10085909A /* SafariServices.framework */,
+				920A990620F3D0C20085909A /* JavaScriptCore.framework */,
+				920A990420F3D0820085909A /* QuartzCore.framework */,
+				920A990220F3CA360085909A /* StoreKit.framework */,
+				920A990020F3C96D0085909A /* EventKitUI.framework */,
+				920A98FE20F3C9540085909A /* EventKit.framework */,
+				920A98FC20F3C6A10085909A /* MediaPlayer.framework */,
+				920A98FA20F3C6060085909A /* CoreTelephony.framework */,
+				920A98F820F3C5E30085909A /* SystemConfiguration.framework */,
+				920A98F620F3C5AC0085909A /* CoreLocation.framework */,
+				920A98F420F3C5540085909A /* AdSupport.framework */,
+				920A98F220F3C5450085909A /* AmazonAd.framework */,
 				4AD51E8528B08715CA26A07C /* libPods-Canine.a */,
 			);
 			name = Frameworks;
@@ -338,6 +386,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L36D2F8J6M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/AmazonAd/AmazonMobileAds-ios-2.2.15.1-SDK",
+				);
 				INFOPLIST_FILE = Canine/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -357,6 +409,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L36D2F8J6M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/AmazonAd/AmazonMobileAds-ios-2.2.15.1-SDK",
+				);
 				INFOPLIST_FILE = Canine/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -17,6 +17,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // set your Application Key in order to receive ads
+    [[AmazonAdRegistration sharedRegistration] setAppKey:@"a8538f5a117a4e3eab627e9d6240cb77"];      // a8538f5a117a4e3eab627e9d6240cb77 is canine app key, use 123 for the test banner
+    
+    // Enable logging
+    [[AmazonAdRegistration sharedRegistration] setLogging:YES];
+    
+    // ??
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
